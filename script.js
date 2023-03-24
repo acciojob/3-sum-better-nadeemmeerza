@@ -11,7 +11,7 @@ function threeSum(arr, target) {
 		if(sum == target)
 			return sum;
 		else 
-			closest = Math.min((target-closest), target-sum);			
+			closest = Math.min(target-closest, target-sum);			
 	}
   return closest;
 }
